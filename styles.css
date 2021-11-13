@@ -1,5 +1,8 @@
 /* Typography */
-
+body {
+  font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
 
         /* Sections */
 
@@ -14,6 +17,44 @@ header ul li {
     display: inline;
 }
 
+/* Skills/Education */
+.background-blue {
+  background-color: $primary;
+  width: 100vw;
+  padding: 3em 0;
+  @include flexColumnCenter;
+}
+
+.skills-education-container {
+  background-color: white;
+  width: 80vw;
+  max-width: 675px;
+  border-radius: .5em;
+  @include flexColumnCenter;
+}
+
+.education-container {
+  @include flexColumnCenter;
+}
+
+.skills-img-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.skills-container {
+  @include flexColumnCenter;
+}
+
 
 
 /* IMG */
@@ -22,4 +63,15 @@ header ul li {
   width: 10rem;
   height: 10rem;
   border-radius: 100%;
+}
+
+/* // Skills */
+#treehouse {
+    width: 50%;
+}
+
+.skills-container img {
+    width: 100px;
+    height: auto;
+    padding: 1em 2em;
 }
