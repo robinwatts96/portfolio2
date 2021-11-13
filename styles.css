@@ -1,7 +1,7 @@
 /* Typography */
 
 
-/* Sections */
+        /* Sections */
 
 /* Home */
 header ul {
@@ -12,4 +12,14 @@ header ul {
 
 header ul li {
     display: inline;
+}
+
+
+
+/* IMG */
+
+#profile-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
 }
