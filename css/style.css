@@ -377,4 +377,19 @@ template {
   font-family: 'Titillium Web', sans-serif;
 }
 
+/* line 3, ../../../OneDrive/Documents/GitHub/portfolio2/scss/component/_navigation.scss */
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+}
+
+/* line 13, ../../../OneDrive/Documents/GitHub/portfolio2/scss/component/_navigation.scss */
+header ul li {
+  display: inline;
+}
+
 /*# sourceMappingURL=style.css.map */
