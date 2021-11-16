@@ -1,0 +1,63 @@
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+// Nav bar
+.nav-bar-li li {
+    font-size: .75em;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: -1em;
+    color: white;
+}
+
+// Jumbotron
+.lead {
+    color: $secondary;
+}
+
+// Skills & Education
+.education-container p {
+    font-size:.8rem;
+    
+}
+
+h3 {
+    margin-top: 1em;
+    border-bottom: 1px solid $secondary;
+    padding-bottom: 3px;
+}
+
+h3,
+.skills-education-container h4 {
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+// Portfolio
+.project-inner-html p {
+    padding: 0 1em;
+    text-align: center;
+}
+
+.project-inner-html h4 {
+
+    border-bottom: 1px solid $primary;
+    padding-bottom: 3px;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+// Contact
+.contact-container p {
+    padding: 0 1em;
+}
+
+// Footer
+footer p {
+    color: $primary;
+    font-size: .8em;
+}
