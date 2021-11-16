@@ -1,4 +1,7 @@
-/* Colors */
+/* Colors
+$primary: hsl(177,41,66);
+$primaryFade: hsla(177,41,66,.2);
+$secondary:hsl(13,69,62); */
 
 /* Typography */
 body {
@@ -6,7 +9,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
-        /* Sections */
+    /* Sections */
 
 /* Home */
 header ul {
