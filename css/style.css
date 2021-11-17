@@ -381,7 +381,7 @@ template {
 /* line 8, ../../../OneDrive/Documents/GitHub/portfolio2/scss/base/_typography.scss */
 .home-name h1 {
   margin: 0;
-  padding-top: 1em;
+  padding-top: .5em;
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/portfolio2/scss/component/_grid.scss */
@@ -389,8 +389,16 @@ template {
   background-color: #1a232d;
   border-bottom-left-radius: 30%;
   border-bottom-right-radius: 30%;
-  height: 30vh;
+  height: 7.5em;
   text-align: center;
+}
+
+/* line 1, ../../../OneDrive/Documents/GitHub/portfolio2/scss/component/_images.scss */
+#profile-img {
+  width: 7.5em;
+  height: 7.5em;
+  border-radius: 100%;
+  margin: 1rem 0;
 }
 
 /* line 3, ../../../OneDrive/Documents/GitHub/portfolio2/scss/component/_navigation.scss */
@@ -398,7 +406,7 @@ header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  height: 5vh;
+  height: 2.5em;
   display: flex;
   justify-content: space-around;
   background-color: #242832;
