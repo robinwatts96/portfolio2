@@ -1,8 +1,15 @@
-// Home Name
+// Home
+
+.home {
+    height: 100vh;
+    background-color: lightblue;
+}
+
 .home-name {
     background-color: $secondary;
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
-    height: 7.5em;
+    // height: 7.5em;
+    height: 20%;
     text-align: center;
 }
