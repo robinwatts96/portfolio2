@@ -393,8 +393,7 @@ template {
 /* line 8, ../../../OneDrive/Documents/GitHub/portfolio2/scss/component/_grid.scss */
 .home-name {
   background-color: #1a232d;
-  border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-radius: 0 0 100% 100%/0 0 50% 50%;
   height: 20%;
   text-align: center;
 }
