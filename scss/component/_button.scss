@@ -1,0 +1,53 @@
+// Project
+#project-github {
+    background-color: $primary;
+    color: white;
+    margin-right: 12px;
+    padding: 0 7px;
+    border-radius: 10px;
+}
+
+#project-demo {
+    background-color: $secondary;
+    color: white;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    padding: 0 7px;
+    border-radius: 10px;
+}
+
+#close-btn {
+    margin-left: 90%;
+    margin-top: -2%;
+    width: 2em;
+    height: auto;
+    border: none;
+    box-shadow: none;
+}
+
+// contact
+#lets-do-this {
+    transition: transform .2s ease-out;
+}
+
+#lets-do-this p {
+    background-color: $secondary;
+    color: white;
+    padding: 0 1em;
+    border-radius: 1em;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    box-shadow: 4px 4px 2px hsla(0,0%,0%, .2);
+}
+
+#lets-do-this:hover {
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+    text-decoration: none;
+}
+
+#lets-do-this a:hover {
+    text-decoration: none;
+}

@@ -1,15 +1,57 @@
-// Nav Bar
-
-header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 2.5em;
-    display: flex;
-    justify-content: space-around; 
+// Top nav bar
+.nav-bar {
+    width: 100%;
+    height: 5vh;
     background-color: $primary;
-  }
-  
-  header ul li {
-      display: inline;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-li {
+    list-style-type: none;
+    padding: 0;
+    margin-top: .7em;
+}
+
+.nav-bar-li-li,
+.nav-bar-li-a {
+    display: inline;
+    padding: .3em;
+    color: white;
+    transition: color .3s ease-in;
+    font-size: 1.2em;
+}
+
+.nav-bar-li-li:visited,
+.nav-bar-li-li:active {
+    color: white;
+}
+
+.nav-bar-li-li:hover,
+.nav-bar-li-a:hover {
+    color: $secondary;
+    transition: color .2s ease-in; 
+}
+
+.nav-bar-li a:hover {
+    text-decoration: none;
+}
+
+// Media
+@media (min-width: 600px) {        
+    .nav-bar-li-li,
+    .nav-bar-li-a {
+        padding: .3em .5em;
+        font-size: 1.75em;
+    }
+   
+}
+
+
+@media (min-width: 850px) {
+    .nav-bar {
+         height: 5vh;
+        }
+}
